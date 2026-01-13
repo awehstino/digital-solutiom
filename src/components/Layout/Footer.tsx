@@ -5,7 +5,7 @@ import NewsletterForm from "./NewsletterForm";
 
 // Define data structures for footer content
 const logoData = {
-  src: "/images/logo-white.svg",
+  src: "/images/logo.png",
   alt: "Logo",
   width: 128,
   height: 41,
@@ -74,9 +74,9 @@ const copyrightData = {
   logoAlt: "Logo",
   logoWidth: 1882,
   logoHeight: 395,
-  companyName: "Aivox",
-  ownerName: "HiboTheme",
-  ownerHref: "https://hibotheme.com",
+  companyName: "Digital Solutiom",
+  ownerName: "Amos",
+  ownerHref: "https://",
 };
 
 const Footer: React.FC = () => {
