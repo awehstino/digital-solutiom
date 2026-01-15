@@ -5,7 +5,7 @@ import NewsletterForm from "./NewsletterForm";
 
 // Define data structures for footer content
 const logoData = {
-  src: "/images/logo.png",
+  src: "/images/favicon.png",
   alt: "Logo",
   width: 128,
   height: 41,

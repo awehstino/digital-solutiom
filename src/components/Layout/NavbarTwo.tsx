@@ -163,7 +163,7 @@ const NavbarTwo: React.FC = () => {
           <div className="navbar-wrapper d-flex justify-content-between align-items-center">
             <Link href="/" className="navbar-brand">
               <Image
-                src="/images/logo.png"
+                src="/images/favicon.png"
                 alt="Logo"
                 width={128}
                 height={41}

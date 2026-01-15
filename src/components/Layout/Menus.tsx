@@ -1,8 +1,8 @@
 export const menus = [
   {
-    title: "Home",
+   title: "Home", href: "/",
     children: [
-      { title: "AI SaaS Platform", href: "/" },
+      // { title: "AI SaaS Platform", href: "/" },
       // {
       //   title: "AI Cyber Security Solutions",
       //   href: "/ai-cyber-security-solutions/",
@@ -12,6 +12,10 @@ export const menus = [
       //   href: "/ai-robotics-automation/",
       // },
     ],
+  },
+  {
+    title: "About Us",
+    href: "/about-us/",
   },
   // {
   //   title: "Pages",
@@ -96,20 +100,21 @@ export const menus = [
   // },
   {
     title: "Blog",
-    children: [
-      { title: "Blog Grid", href: "/blogs/" },
-      { title: "Blog Left Sidebar", href: "/blogs/left-sidebar/" },
-      { title: "Blog Right Sidebar", href: "/blogs/right-sidebar/" },
-      { title: "Blog Details", href: "/blogs/details/" },
-      {
-        title: "Others",
-        children: [
-          { title: "Author", href: "/blogs/author/" },
-          { title: "Category", href: "/blogs/category/" },
-          { title: "Tag", href: "/blogs/tags/" },
-        ],
-      },
-    ],
+    href: "/blogs/",
+    // children: [
+    //   { title: "Blog Grid", href: "/blogs/" },
+    //   { title: "Blog Left Sidebar", href: "/blogs/left-sidebar/" },
+    //   { title: "Blog Right Sidebar", href: "/blogs/right-sidebar/" },
+    //   { title: "Blog Details", href: "/blogs/details/" },
+    //   {
+    //     title: "Others",
+    //     children: [
+    //       { title: "Author", href: "/blogs/author/" },
+    //       { title: "Category", href: "/blogs/category/" },
+    //       { title: "Tag", href: "/blogs/tags/" },
+    //     ],
+    //   },
+    // ],
   },
   { title: "Contact", href: "/contact/" },
 ];
