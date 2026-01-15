@@ -24,14 +24,14 @@ const contactInfo = [
   {
     icon: "/images/icons/pin-small.svg",
     label: "Address",
-    content: "952 Bad Hill St, Asheville, NC 28803, USA",
+    content: "5th Floor, Heritage Place, 21 Lugard Ave, Ikoyi, Lagos 106104, Lagos",
     iconWidth: 13,
     iconHeight: 16,
   },
   {
     icon: "/images/icons/mail-small.svg",
     label: "Email",
-    content: "contact@aivox.com",
+    content: "contact@digitalsolutionplanet.com",
     href: "mailto:contact@aivox.com",
     iconWidth: 13,
     iconHeight: 16,
@@ -39,7 +39,7 @@ const contactInfo = [
   {
     icon: "/images/icons/phone-small.svg",
     label: "Phone",
-    content: "+96 76867 8869",
+    content: "+96 76867 8869=",
     href: "tel:96768678869",
     iconWidth: 13,
     iconHeight: 16,
@@ -74,8 +74,8 @@ const copyrightData = {
   logoAlt: "Logo",
   logoWidth: 1882,
   logoHeight: 395,
-  companyName: "Digital Solutiom",
-  ownerName: "Amos",
+  companyName: "Digital Solution",
+  ownerName: "SCROFT",
   ownerHref: "https://",
 };
 
