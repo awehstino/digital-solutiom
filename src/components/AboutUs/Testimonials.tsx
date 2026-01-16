@@ -19,25 +19,25 @@ const testimonialsData: Testimonial[] = [
   {
     id: 1,
     quote:
-      "We've used several cybersecurity platforms, but none match Aivox's AI precision and speed. Their automated response prevented a major data breach, and the compliance tools made our audits effortless.",
-    clientName: "Michael Reyes",
-    clientTitle: "CISO, DataTrust Corp",
+      "E-commerce setup + AI content tools doubled sales first month, now 3x growth. They handle the tech, I focus on business. Worth every kobo!",
+    clientName: "Michael James",
+    clientTitle: "Entreprenuer",
     clientImage: "/images/clients/client-1.jpg",
   },
   {
     id: 2,
     quote:
-      "Aivox's AI precision and speed we've used several cybersecurity platforms, but none match. Their automated response prevented a major data breach, and the compliance tools made our audits effortless.",
-    clientName: "Tony Conor",
-    clientTitle: "Entreprenuer",
+      "Zero skills online → learned website flips, AI content hacks, and client closing from Digital Solution Planet. Landed my first ₦450k gig in 6 weeks. These guys don’t teach theory — they drop real bags. Thank you boss!",
+    clientName: "Chioma Nwosu",
+    clientTitle: "Freelancer",
     clientImage: "/images/clients/client-2.jpg",
   },
   {
     id: 3,
     quote:
-      "Awesome AI service from Aivox platforms, but none match Aivox's AI precision and speed. Their automated response prevented a major data breach, and the compliance tools made our audits effortless.",
-    clientName: "Andrew Higins",
-    clientTitle: "Founder & CEO, BIMST",
+      "Before Digital Solution, my shop relied on walk-ins and WhatsApp flyers — Contacted The Team. Now revenue is up over 150% in three months. Best investment I ever made — no cap, these guys deliver.",
+    clientName: "Tunde Adebayo",
+    clientTitle: "Founder & CEO",
     clientImage: "/images/clients/client-3.jpg",
   },
 ];

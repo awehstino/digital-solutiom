@@ -7,16 +7,14 @@ const AnimatedText: React.FC = () => {
         <div className="move-text style-seven position-relative z-1">
           <ul className="list-unstyled mb-0">
             <li className="position-relative font-secondary fw-normal">
-              AN AI-FIRST PLATFORM BUILT TO AUTOMATE, ANALYZE, AND ACCELERATE
-              YOUR BUSINESS OPERATIONS{" "}
+              WE ELEVATE BUSINESSES THROUGH STRATEGIC DIGITAL SOLUTION{" "}
             </li>
             <li className="position-relative font-secondary fw-normal">
               AN AI-FIRST PLATFORM BUILT TO AUTOMATE, ANALYZE, AND ACCELERATE
-              YOUR BUSINESS OPERATIONS{" "}
+              YOUR OPERATIONS{" "}
             </li>
             <li className="position-relative font-secondary fw-normal">
-              AN AI-FIRST PLATFORM BUILT TO AUTOMATE, ANALYZE, AND ACCELERATE
-              YOUR BUSINESS OPERATIONS{" "}
+              {" "}
             </li>
           </ul>
         </div>
