@@ -36,15 +36,37 @@ const AboutUsContent: React.FC = () => {
                   />
                   Write a blog post{" "}
                 </div>
+
+                <div className="about-promo-text style-two move-left sm-none">
+                  <Image
+                    src="/images/about/thumbnail-3.png"
+                    alt="thumbnail"
+                    width={17}
+                    height={17}
+                  />
+                  Checklist task
+                </div>
+
                 <span className="section-subtitle style-two d-inline-block text_primary fw-bold fs-14 ls-15 mb-12">
                   About Us
                 </span>
 
                 <h2 className="section-title style-four font-secondary fw-medium text-title">
                   Driven By Innovation, Powered By Intelligence — Discover How
-                  We Transform{" "}
-                  <span className="blur-text">The Future Of Business Through Smarter, Scalable, And Secure Artificial
-                    Intelligence Solutions For Every Industry.</span>
+                  Digital Solution Is Transforming{" "}
+                  <span className="blur-text">The Future Of Business</span>
+                  <span className="thumb">
+                    <Image
+                      src="/images/about/thumbnail.png"
+                      alt="thumbnail"
+                      width={38}
+                      height={52}
+                    />
+                  </span>
+                  <span className="blur-text d-block">
+                    Through Smarter, Scalable, And Secure Artificial
+                    Intelligence Solutions For Every Industry.
+                  </span>
                 </h2>
               </div>
             </div>

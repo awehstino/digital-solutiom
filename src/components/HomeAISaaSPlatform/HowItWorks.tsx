@@ -16,7 +16,7 @@ const HowItWorks: React.FC = () => {
       description:
         "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
       chartValue: "24K+",
-      chartText: "Start A Chat <br /> With Comer AI",
+      chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
       processImage: "/images/about/process-1.png",
     },
@@ -28,7 +28,7 @@ const HowItWorks: React.FC = () => {
       description:
         "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
       chartValue: "14K+",
-      chartText: "Start A Chat <br /> With Comer AI",
+      chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
       processImage: "/images/about/process-2.png",
     },
@@ -40,7 +40,7 @@ const HowItWorks: React.FC = () => {
       description:
         "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
       chartValue: "18K+",
-      chartText: "Start A Chat <br /> With Comer AI",
+      chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
       processImage: "/images/about/process-3.png",
     },
@@ -52,7 +52,7 @@ const HowItWorks: React.FC = () => {
       description:
         "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
       chartValue: "30K+",
-      chartText: "Start A Chat <br /> With Comer AI",
+      chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
       processImage: "/images/about/process-4.png",
     },

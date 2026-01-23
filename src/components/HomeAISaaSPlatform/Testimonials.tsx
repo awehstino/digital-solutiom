@@ -10,9 +10,9 @@ const Testimonials: React.FC = () => {
   const testimonials = [
     {
       id: 1,
-      title: "Aivox's Automation Saved Us Hundreds Of Hours Every Month.",
+      title: "Digital Solution's Automation Saved Us Hundreds Of Hours Every Month.",
       description:
-        "We Reduced Manual Reporting Time By 80% Using Aivox's Smart Workflow Engine. It's Seamless And Powerful!",
+        "We Reduced Manual Reporting Time By 80% Using Digital Solution's Smart Workflow Engine. It's Seamless And Powerful!",
       clientName: "Sarah Mitchel",
       clientPosition: "Operations Director at Novatech",
       clientImage: "/images/clients/client-1.jpg",
@@ -20,9 +20,9 @@ const Testimonials: React.FC = () => {
     },
     {
       id: 2,
-      title: "Aivox's Platform Feels Like An Extension Of Our Team",
+      title: "Digital Solution's Platform Feels Like An Extension Of Our Team",
       description:
-        "Aivox Ai Transformed Our Workflow—automation Has Never Been This Seamless And Intelligent.",
+        "Digital Solution Transformed Our Workflow—automation Has Never Been This Seamless And Intelligent.",
       clientName: "Andrew Freeman",
       clientPosition: "Product Manager",
       clientImage: "/images/clients/client-2.jpg",
@@ -41,9 +41,9 @@ const Testimonials: React.FC = () => {
     {
       id: 4,
       title:
-        "Fast Integration And Even Faster Aivox Exceeded Expectations.",
+        "Fast Integration And Even Faster Digital Solution Exceeded Expectations.",
       description:
-        "We Reduced Manual Reporting Time By 80% Using Aivox's Smart Workflow Engine. It's Seamless And Powerful!",
+        "We Reduced Manual Reporting Time By 80% Using Digital Solution's Smart Workflow Engine. It's Seamless And Powerful!",
       clientName: "Andrew Austin",
       clientPosition: "CTO at BrightLeaf Digital",
       clientImage: "/images/clients/client-4.jpg",
@@ -61,7 +61,7 @@ const Testimonials: React.FC = () => {
     },
     {
       id: 6,
-      title: "Smart Automation That Saves Time Boosts Growth Aivox",
+      title: "Smart Automation That Saves Time Boosts Growth Digital Solution",
       description:
         "Their Deep Learning Model Accurately Predicts Customer Churn.users Monthly.",
       clientName: "Tom Richards",
@@ -117,7 +117,7 @@ const Testimonials: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                What Our Client Says About Aivox AI
+                What Our Client Says About Digital Solution
               </h2>
             </div>
           </div>

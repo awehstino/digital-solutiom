@@ -8,11 +8,7 @@ const ThemeSwitcherMode: React.FC = () => {
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    const systemPrefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-
-    if (storedTheme === "dark" || (!storedTheme && systemPrefersDark)) {
+    if (storedTheme === "dark" || !storedTheme) {
       setIsDarkMode(true);
       document.documentElement.classList.add("theme-dark");
     }
@@ -34,7 +30,7 @@ const ThemeSwitcherMode: React.FC = () => {
 
   return (
     <>
-      <div className="switch-theme-mode">
+      <div className="switch-theme-mode" style={{ display: "none" }}>
         <label htmlFor="slider" className="switch">
           <input
             type="checkbox"
