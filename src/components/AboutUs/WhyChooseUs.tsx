@@ -5,6 +5,7 @@ import Link from "next/link";
 const WhyChooseUs: React.FC = () => {
   // Dynamic data object
   const whyChooseData = {
+    title: "Why Choose Us",
     subtitle: "WHY CHOOSE erprises For Scalable, Automated Cyber Defense",
     description:
       "We believe cybersecurity should be smart, seamless, and scalable Our AI-powered platform continuously analyzes data",
