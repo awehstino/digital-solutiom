@@ -17,76 +17,38 @@ const ServiceLists: React.FC = () => {
   const servicesData: Service[] = [
     {
       id: 1,
-      title: "AI-Powered Predictive Maintenance",
+      title: "AI CALL RECEPTIONIST",
       icon: "/images/services/service-icon-1.svg",
       link: "/services/details",
     },
     {
       id: 2,
-      title: "Industrial Robotics Automation",
+      title: "WEBSITE DESIGN & MANAGEMENT",
       icon: "/images/services/service-icon-2.svg",
       link: "/services/details",
     },
     {
       id: 3,
-      title: "Smart Warehouse & Logistics Systems",
+      title: "BUSINESS AUTOMATION",
       icon: "/images/services/service-icon-3.svg",
       link: "/services/details",
     },
-    {
-      id: 4,
-      title: "Quality Inspection Systems",
-      icon: "/images/services/service-icon-4.svg",
-      link: "/services/details",
-    },
-    {
-      id: 5,
-      title: "Machine Learning & Predictive Analytics",
-      icon: "/images/services/service-icon-5.svg",
-      link: "/services/details",
-    },
+   
     {
       id: 6,
-      title: "Natural Language Processing",
+      title: "DIGITAL STRATEGY & CONSULTING",
       icon: "/images/services/service-icon-6.svg",
       link: "/services/details",
     },
     {
       id: 7,
-      title: "Computer Vision Solutions",
+      title: "TECH & DIGITAL CAREER TRAINING",
       icon: "/images/services/service-icon-7.svg",
       link: "/services/details",
     },
-    {
-      id: 8,
-      title: "Intelligent Process Automation",
-      icon: "/images/services/service-icon-8.svg",
-      link: "/services/details",
-    },
-    {
-      id: 9,
-      title: "Smart Warehouse & Logistics Systems",
-      icon: "/images/services/service-icon-3.svg",
-      link: "/services/details",
-    },
-    {
-      id: 10,
-      title: "Quality Inspection Systems",
-      icon: "/images/services/service-icon-4.svg",
-      link: "/services/details",
-    },
-    {
-      id: 11,
-      title: "Machine Learning & Predictive Analytics",
-      icon: "/images/services/service-icon-5.svg",
-      link: "/services/details",
-    },
-    {
-      id: 12,
-      title: "Natural Language Processing",
-      icon: "/images/services/service-icon-6.svg",
-      link: "/services/details",
-    },
+  
+   
+   
   ];
 
   // Pagination state

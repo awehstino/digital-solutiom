@@ -15,7 +15,7 @@ const Funfact: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                Trusted by these SaaS enabled teams
+                WHO WE ARE
               </span>
               <h2
                 className="section-title style-one fw-medium text-title mb-0"
@@ -24,9 +24,16 @@ const Funfact: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                The Security Teams At These Industry-leading Companies Can Rest
-                Assured, Their Data Is Secure
+                We Are A Pioneering AI Agency Delivering Intelligent Automation And Digital Innovation For Modern Businesses.
               </h2>
+             <p>
+           Our services include AI-powered automation, chatbot development, custom system integrations, and professional web design that blends functionality with modern user experience. We build digital platforms that not only look great but perform seamlessly.
+        </p>
+       <p>
+          Beyond solutions, we are passionate about empowering people. We provide hands-on tech trainings in Artificial Intelligence, automation tools, web development, and practical digital skills — equipping individuals and teams with real-world knowledge they can immediately apply.
+          </p>
+          <p>At Digital Solution Planet, we don’t just build technology — we build smarter businesses and future-ready professionals.</p>
+
             </div>
 
             <div className="col-xl-6 col-lg-7 ps-xxl-5">
@@ -73,7 +80,7 @@ const Funfact: React.FC = () => {
                       />
                     </span>
                     <h4 className="font-secondary">
-                      <span className="transition">21.9</span>M+
+                      <span className="transition">50</span>+
                     </h4>
                     <p className="fw-semibold text-offwhite d-block mb-0">
                       Project Done
@@ -114,10 +121,10 @@ const Funfact: React.FC = () => {
                       />
                     </span>
                     <h4 className="font-secondary text-white">
-                      <span className="transition">21.9</span>M+
+                      <span className="transition">5,000</span>+
                     </h4>
                     <p className="fw-medium text-offwhite fw-medium d-block mb-0">
-                      Transactions Recorded
+                      Student Record
                     </p>
                   </div>
                 </div>
@@ -126,20 +133,7 @@ const Funfact: React.FC = () => {
           </div>
         </div>
 
-        <div className="move-text-wrapper overflow-hidden">
-          <div className="move-text style-three overflow-hidden">
-            <ul className="list-unstyled mb-0">
-              <li className="position-relative font-secondary">
-                AN AI-FIRST PLATFORM BUILT TO AUTOMATE ANALYZE, AND ACCELERATE
-                YOUR BUSINESS OPERATIONS
-              </li>
-              <li className="position-relative font-secondary">
-                AN AI-FIRST PLATFORM BUILT TO AUTOMATE ANALYZE, AND ACCELERATE
-                YOUR BUSINESS OPERATIONS
-              </li>
-            </ul>
-          </div>
-        </div>
+       
       </div>
     </>
   );

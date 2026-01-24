@@ -171,7 +171,7 @@ const HeroBanner: React.FC = () => {
             <p className="fs-15 fw-medium text-offwhite mb-0">
               Total Projects
             </p>
-            <span className="fs-20 fw-bold text-white">10</span>
+            <span className="fs-20 fw-bold text-white">50+</span>
           </div>
         </div>
 
