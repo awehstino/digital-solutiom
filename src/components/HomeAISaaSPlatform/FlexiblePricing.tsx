@@ -14,7 +14,7 @@ const FlexiblePricing: React.FC = () => {
   const monthlyPlans = [
     {
       title: "Starter",
-      description: "Get started with Fluence AI at no cost",
+      description: "Get started with Digital Solution at no cost",
       price: "20.00",
       period: "/Month, Per User",
       features: [
@@ -31,7 +31,7 @@ const FlexiblePricing: React.FC = () => {
     },
     {
       title: "Pro",
-      description: "Get started with Fluence AI at no cost",
+      description: "Get started with Digital Solution at no cost",
       price: "60.00",
       period: "/Month, Per User",
       features: [
@@ -51,7 +51,7 @@ const FlexiblePricing: React.FC = () => {
   const yearlyPlans = [
     {
       title: "Starter",
-      description: "Get started with Fluence AI at no cost",
+      description: "Get started with Digital Solution at no cost",
       price: "50.00",
       period: "/Year, Per User",
       features: [
@@ -68,7 +68,7 @@ const FlexiblePricing: React.FC = () => {
     },
     {
       title: "Pro",
-      description: "Get started with Fluence AI at no cost",
+      description: "Get started with Digital Solution at no cost",
       price: "90.00",
       period: "/Year, Per User",
       features: [

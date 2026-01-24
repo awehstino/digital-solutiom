@@ -9,7 +9,7 @@ const Benefits: React.FC = () => {
       id: 1,
       title: "Save Time With Smart Automation",
       description:
-        "Minate repetitive tasks and streamline workflows to boost team productivity.",
+        "Eliminate repetitive tasks and streamline workflows to boost team productivity.",
     },
     {
       id: 2,
@@ -53,11 +53,11 @@ const Benefits: React.FC = () => {
                   Your Benefits
                 </span>
                 <h2 className="section-title style-one fw-medium text-title">
-                  Discover The Core Benefits That Make Aivox AI A Smarter
+                  Discover The Core Benefits That Make Digital Solution A Smarter
                   Business Choice
                 </h2>
                 <p className="mb-30">
-                  Aivox AI delivers real, measurable impact for businesses of
+                  Digital Solution delivers real, measurable impact for businesses of
                   all sizes. By combining intelligent automation, real-time
                   analytics, & seamless integration.
                 </p>

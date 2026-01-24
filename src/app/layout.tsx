@@ -25,8 +25,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Aivox - AI Startup Next.js Template",
-  description: "Aivox is a cutting-edge technology and AI startup template built with Next.js.",
+  title: "Digital Solution - AI Startup Next.js Template",
+  description: "Digital Solution is a cutting-edge technology and AI startup template built with Next.js.",
 };
 
 

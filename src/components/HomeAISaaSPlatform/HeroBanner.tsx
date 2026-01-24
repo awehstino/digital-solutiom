@@ -1,12 +1,22 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const HeroBanner: React.FC = () => {
   const heroAreaRef = useRef<HTMLDivElement>(null);
   const statBoxRefs = useRef<Array<HTMLDivElement | null>>(Array(4).fill(null));
+
+  const [visitors, setVisitors] = useState(0);
+
+  useEffect(() => {
+    const storedVisitors = localStorage.getItem("visitor_count");
+    const initialCount = storedVisitors ? parseInt(storedVisitors) : 0;
+    const newCount = initialCount + 1;
+    localStorage.setItem("visitor_count", newCount.toString());
+    setVisitors(newCount);
+  }, []);
 
   useEffect(() => {
     const heroArea = heroAreaRef.current;
@@ -86,7 +96,7 @@ const HeroBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-once="true"
                 >
-                  Unleash Smarter Workflows with Aivox AI
+                  Unleash Smarter Workflows with digital solution
                 </span>
 
                 <h1
@@ -99,7 +109,7 @@ const HeroBanner: React.FC = () => {
                   Empower Your Business With Scalable{" "}
                   <span className="d-block fw-bold text_secondary">
                     {" "}
-                    AI Solutions
+                    Digital Solutions
                   </span>
                 </h1>
 
@@ -110,7 +120,7 @@ const HeroBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-once="true"
                 >
-                  <Link
+                  {/* <Link
                     href="/contact"
                     className="btn style-nine fw-semibold position-relative round-oval"
                   >
@@ -137,7 +147,7 @@ const HeroBanner: React.FC = () => {
                         height={16}
                       />
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -159,9 +169,9 @@ const HeroBanner: React.FC = () => {
           />
           <div>
             <p className="fs-15 fw-medium text-offwhite mb-0">
-              Total Subscribe
+              Total Projects
             </p>
-            <span className="fs-20 fw-bold text-white">61.000</span>
+            <span className="fs-20 fw-bold text-white">10</span>
           </div>
         </div>
 
@@ -222,9 +232,9 @@ const HeroBanner: React.FC = () => {
           </div>
           <div className="stat-box-two d-flex flex-column align-items-center justify-content-center text-center">
             <span className="fs-13 lh-1 mb-1 fw-semibold text-white mb-0">
-              Daily Visitor
+              Total Visitors
             </span>
-            <h6 className="fw-bold text_secondary mb-0">800+</h6>
+            <h6 className="fw-bold text_secondary mb-0">{visitors}+</h6>
           </div>
         </div>
       </div>

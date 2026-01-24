@@ -12,26 +12,26 @@ const OurMission: React.FC = () => {
       {
         title: "Mission",
         content: [
-          "To empower businesses with innovative digital solutions that streamline operations, enhance customer experiences, and accelerate sustainable growth.",
-          "We are committed to delivering exceptional value through expertly crafted websites, optimized online presence, intelligent AI tools, and ongoing support — enabling our clients to focus on what they do best while we handle the digital landscape with precision and expertise.",
+          "To empower industries with intelligent robotics and AI-driven automation that enhance efficiency, ensure safety and accelerate",
+          "innovation—transforming how businesses operate, scale and compete in a rapidly evolving world.",
         ],
         image: "/images/about/mission-thumb.png",
       },
       {
         title: "Vision",
         content: [
-          "To become Africa's leading digital transformation partner by 2030, setting the global standard for how small and medium enterprises leverage technology for exponential success.",
-          "We envision a future where every business — from local startups to established brands — operates with seamless digital efficiency, powered by intelligent systems that anticipate needs, generate opportunities, and create lasting competitive advantages. Our ambition extends beyond Earth-bound solutions to pioneering AI-driven ecosystems that redefine business potential in the digital age and beyond.",
+          "Innovation—transforming how businesses operate, scale and compete in a rapidly evolving world.",
+          "To empower industries with intelligent robotics and AI-driven automation that enhance efficiency, ensure safety and accelerate",
         ],
       },
     ],
     backgroundImage: "/images/about/mission-bg.jpg",
     experienceBox: {
-      number: "5000+",
+      number: "50+",
       text: "Successful Deployments",
     },
     heading:
-      "We are a pioneering AI agency delivering intelligent automation",
+      "Digital Solution is a pioneering AI agency delivering intelligent automation",
   };
 
   const handleTabClick = (index: number) => {

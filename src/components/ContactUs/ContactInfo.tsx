@@ -9,23 +9,29 @@ const ContactInfo: React.FC = () => {
       icon: "/images/icons/phone-black.svg",
       title: "Call Center",
       items: [
-        { text: "006 546 75869 879", link: "tel:00654675869879" },
-        { text: "+ (123) 006 546 75869", link: "tel:12300654675869" },
+        { text: "+2348076533635", link: "tel:+2348076533635" },
       ],
     },
     {
       id: 2,
       icon: "/images/icons/pin-black.svg",
       title: "Our Location",
-      items: [{ text: "USA, New York - First Avenue 1", link: null }],
+      items: [
+        {
+          text: "5th Floor, Heritage Place, 21 Lugard Ave, Ikoyi, Lagos 106104, Lagos",
+          link: null,
+        },
+      ],
     },
     {
       id: 3,
       icon: "/images/icons/pin-black.svg",
       title: "Email",
       items: [
-        { text: "info@aivox.com", link: "mailto:info@aivox.com" },
-        { text: "help@aivox.com", link: "mailto:help@aivox.com" },
+        {
+          text: "contact@digitalsolutionplanet.com",
+          link: "mailto:contact@digitalsolutionplanet.com",
+        },
       ],
     },
   ];
@@ -61,8 +67,7 @@ const ContactInfo: React.FC = () => {
           We Are Always Ready To Help You And Answer Your Questions
         </h2>
         <p className="mb-45">
-          Pacific hake false trevally queen parrotfish black prickleback
-          mosshead warbonnet sweeper! Greenling sleeper.
+          We are here to help you with any questions you may have. Reach out to us and we'll respond as soon as we can.
         </p>
 
         <div className="contact-card-wrap style-one d-flex flex-wrap position-relative">

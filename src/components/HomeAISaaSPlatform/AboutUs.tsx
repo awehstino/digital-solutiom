@@ -53,7 +53,7 @@ const AboutUs: React.FC = () => {
 
                 <h2 className="section-title style-four font-secondary fw-medium text-white">
                   Driven By Innovation, Powered By Intelligence — Discover How
-                  We Transform{" "}
+                  Digital Solution Transforms{" "}
                   <span className="blur-text">The Future Of Business</span>
                   <span className="thumb">
                     <Image
