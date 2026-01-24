@@ -17,7 +17,7 @@ export default function Home() {
 
       <Funfact />
 
-      <OurFeatures />
+      {/* <OurFeatures /> */}
 
       <AboutUs />
 
@@ -27,7 +27,7 @@ export default function Home() {
 
       <Testimonials />
 
-      <Benefits />
+      {/* <Benefits /> */}
 
       <FlexiblePricing />
 

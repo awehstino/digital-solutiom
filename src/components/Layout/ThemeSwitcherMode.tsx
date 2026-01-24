@@ -3,12 +3,15 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeSwitcherMode: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   // Initialize theme from localStorage or system preference
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark" || !storedTheme) {
+    if (storedTheme === "light") {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove("theme-dark");
+    } else {
       setIsDarkMode(true);
       document.documentElement.classList.add("theme-dark");
     }
