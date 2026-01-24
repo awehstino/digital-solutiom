@@ -10,11 +10,11 @@ const Testimonials: React.FC = () => {
   const testimonials = [
     {
       id: 1,
-      title: "Aivox's Automation Saved Us Hundreds Of Hours Every Month.",
+      title: "Digital Solution Automation Saved Us Hundreds Of Hours Every Month.",
       description:
-        "We Reduced Manual Reporting Time By 80% Using Aivox's Smart Workflow Engine. It's Seamless And Powerful!",
-      clientName: "Sarah Mitchel",
-      clientPosition: "Operations Director at Novatech",
+        "E-commerce setup + AI content tools doubled sales first month, now 3x growth. They handle the tech, I focus on business. Worth every kobo!",
+      clientName: "Michael James",
+      clientPosition: "Entreprenuer",
       clientImage: "/images/clients/client-1.jpg",
       rating: 5,
     },
