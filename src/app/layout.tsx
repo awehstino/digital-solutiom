@@ -24,36 +24,60 @@ const dmSans = DM_Sans({
   subsets: ["latin"],
 });
 
+
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://digitalsolutionplanet.com"),
-  title: "Digital Solution ",
-  description: "Digital Solution is a cutting-edge technology ",
-  keywords: ["AI", "Startup", "Technology", "React"],
-  authors: [
-    { name: "Digital Solution", url: "https://digitalsolutionplanet.com/" },
+
+  title: "Digital Solution Planet | AI Automation & Software Development Agency",
+
+  description:
+    "Digital Solution Planet is a leading AI and software development agency delivering intelligent automation, web & mobile apps, and scalable digital solutions for startups and businesses worldwide.",
+
+  keywords: [
+    "Digital Solution Planet",
+    "AI automation agency",
+    "artificial intelligence solutions",
+    "software development company",
+    "web application development",
+    "mobile app development",
+    "AI for startups",
+    "business automation",
+    "React development",
+    "Next.js agency",
+    "custom software solutions",
+    "technology consulting",
   ],
+
+  authors: [
+    { name: "Digital Solution Planet", url: "https://digitalsolutionplanet.com/" },
+  ],
+
   icons: {
     icon: "/images/logo.png",
     shortcut: "/images/logo.png",
     apple: "/images/logo.png",
   },
+
   openGraph: {
-    title: "Digital Solution - ",
+    title: "Digital Solution Planet | AI Automation & Digital Innovation",
     description:
-      "Digital Solution is a pioneering AI agency delivering intelligent automation",
+      "We help startups and businesses grow with AI-powered automation, modern software development, and smart digital solutions tailored for scale.",
     url: "https://digitalsolutionplanet.com/",
-    siteName: "Digital Solution",
+    siteName: "Digital Solution Planet",
     images: [
       {
         url: "/images/logo.png",
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
+        alt: "Digital Solution Planet Logo",
       },
     ],
     locale: "en_US",
     type: "website",
   },
 };
+
 
 export const viewport: Viewport = {
   width: "device-width",
