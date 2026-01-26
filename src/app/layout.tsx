@@ -10,7 +10,7 @@ import "../../styles/style.css";
 import "../../styles/responsive.css"; 
 import "../../styles/dark-theme.css"; 
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import AosAnimation from "@/components/Layout/AosAnimation";
 import GoTop from "@/components/Layout/GoTop";
@@ -25,10 +25,41 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Solution - AI Startup Next.js Template",
-  description: "Digital Solution is a cutting-edge technology and AI startup template built with Next.js.",
+  metadataBase: new URL("https://digitalsolutionplanet.com"),
+  title: "Digital Solution ",
+  description: "Digital Solution is a cutting-edge technology ",
+  keywords: ["AI", "Startup", "Technology", "React"],
+  authors: [
+    { name: "Digital Solution", url: "https://digitalsolutionplanet.com/" },
+  ],
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
+  openGraph: {
+    title: "Digital Solution - AI Startup Next.js Template",
+    description:
+      "Digital Solution is a cutting-edge technology and AI startup template built with Next.js.",
+    url: "https://digitalsolutionplanet.com/",
+    siteName: "Digital Solution",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
 
 export default function RootLayout({
   children,
