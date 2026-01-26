@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     apple: "/images/logo.png",
   },
   openGraph: {
-    title: "Digital Solution - AI Startup Next.js Template",
+    title: "Digital Solution - ",
     description:
-      "Digital Solution is a cutting-edge technology and AI startup template built with Next.js.",
+      "Digital Solution is a pioneering AI agency delivering intelligent automation",
     url: "https://digitalsolutionplanet.com/",
     siteName: "Digital Solution",
     images: [
