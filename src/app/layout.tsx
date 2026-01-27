@@ -10,7 +10,7 @@ import "../../styles/style.css";
 import "../../styles/responsive.css"; 
 import "../../styles/dark-theme.css"; 
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans } from "next/font/google";
 import AosAnimation from "@/components/Layout/AosAnimation";
 import GoTop from "@/components/Layout/GoTop";
@@ -24,11 +24,66 @@ const dmSans = DM_Sans({
   subsets: ["latin"],
 });
 
+
+
 export const metadata: Metadata = {
-  title: "Digital Solution - AI Startup Next.js Template",
-  description: "Digital Solution is a cutting-edge technology and AI startup template built with Next.js.",
+  metadataBase: new URL("https://digitalsolutionplanet.com"),
+
+  title: "Digital Solution Planet | AI Automation & Software Development Agency",
+
+  description:
+    "Digital Solution Planet is a leading AI and software development agency delivering intelligent automation, web & mobile apps, and scalable digital solutions for startups and businesses worldwide.",
+
+  keywords: [
+    "Digital Solution Planet",
+    "AI automation agency",
+    "artificial intelligence solutions",
+    "software development company",
+    "web application development",
+    "mobile app development",
+    "AI for startups",
+    "business automation",
+    "React development",
+    "Next.js agency",
+    "custom software solutions",
+    "technology consulting",
+  ],
+
+  authors: [
+    { name: "Digital Solution Planet", url: "https://digitalsolutionplanet.com/" },
+  ],
+
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
+
+  openGraph: {
+    title: "Digital Solution Planet | AI Automation & Digital Innovation",
+    description:
+      "We help startups and businesses grow with AI-powered automation, modern software development, and smart digital solutions tailored for scale.",
+    url: "https://digitalsolutionplanet.com/",
+    siteName: "Digital Solution Planet",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Digital Solution Planet Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
 
 export default function RootLayout({
   children,
