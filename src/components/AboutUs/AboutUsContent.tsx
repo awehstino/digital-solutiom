@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutUsContent: React.FC = () => {
   return (
     <>
-      <div className="about-area style-four overflow-hidden ptb-130">
+      {/* <div className="about-area style-four overflow-hidden ptb-130">
         <div className="container-fluid">
           <div className="row">
             <div className="col-xxl-4 col-xl-5 col-lg-6">
@@ -72,7 +72,7 @@ const AboutUsContent: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

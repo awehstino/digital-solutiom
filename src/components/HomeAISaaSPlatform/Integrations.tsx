@@ -60,7 +60,7 @@ const Integrations: React.FC = () => {
 
   return (
     <>
-      <div className="integration-area style-one position-relative overflow-hidden z-1">
+      {/* <div className="integration-area style-one position-relative overflow-hidden z-1">
         <div className="container style-one pb-130">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-md-10 text-center position-relative">
@@ -152,7 +152,7 @@ const Integrations: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

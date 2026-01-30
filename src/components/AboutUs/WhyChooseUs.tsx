@@ -6,33 +6,33 @@ const WhyChooseUs: React.FC = () => {
   // Dynamic data object
   const whyChooseData = {
     title: "Why Choose Us",
-    subtitle: "WHY CHOOSE erprises For Scalable, Automated Cyber Defense",
+    subtitle: "",
     description:
-      "We believe cybersecurity should be smart, seamless, and scalable Our AI-powered platform continuously analyzes data",
+      "We build systems that give you power — speed, precision, and dominance in your market. When you work with us, you don’t just upgrade your systems — you upgrade your entire business.",
     features: [
       {
         icon: "/images/icons/shield-pink.svg",
-        text: "Scalable Across Environments",
-      },
-      {
-        icon: "/images/icons/compliance-pink.svg",
-        text: "Built-In Compliance Support",
-      },
-      {
-        icon: "/images/icons/folder-pink.svg",
-        text: "Centralized Security Dashboard",
-      },
-      {
-        icon: "/images/icons/encrypted.svg",
-        text: "Behavior-Based Monitoring",
+        text: "AI-First Innovation at the Core",
       },
       {
         icon: "/images/icons/lock-pink.svg",
-        text: "Minimal Resource Footprint",
+        text: "Scalable & Secure Solutions",
+      },
+      {
+        icon: "/images/icons/compliance-pink.svg",
+        text: "End-to-End Empowerment",
+      },
+      {
+        icon: "/images/icons/lock-pink.svg",
+        text: "Proven Results & Real Impact",
       },
       {
         icon: "/images/icons/sensor-pink.svg",
         text: "Autonomous Incident Response",
+      },
+      {
+        icon: "/images/icons/shield-pink.svg",
+        text: "Seamless Integration & Speed",
       },
     ],
     button: {
@@ -79,9 +79,9 @@ const WhyChooseUs: React.FC = () => {
             </div>
             <div className="col-xl-5 col-lg-6 ps-xxl-5">
               <div className="wh-content mb-md-30">
-                <span className="section-subtitle d-inline-block text_secondary fw-bold fs-14 ls-15 mb-12">
+                {/* <span className="section-subtitle d-inline-block text_secondary fw-bold fs-14 ls-15 mb-12">
                   {whyChooseData.subtitle}
-                </span>
+                </span> */}
                 <h2 className="section-title style-one font-secondary fw-medium text-white mb-15">
                   {whyChooseData.title}
                 </h2>

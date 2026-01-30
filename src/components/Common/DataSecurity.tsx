@@ -187,7 +187,7 @@ const DataCard: React.FC<{ card: DataCard }> = ({ card }) => {
 const DataSecurity: React.FC = () => {
   return (
     <>
-      <div className="data-section style-one pt-130 pb-100 round-20">
+      {/* <div className="data-section style-one pt-130 pb-100 round-20">
         <div className="container style-one">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-md-10 text-center">
@@ -215,7 +215,7 @@ const DataSecurity: React.FC = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -96,7 +96,7 @@ const HeroBanner: React.FC = () => {
                   data-aos-duration="1000"
                   data-aos-once="true"
                 >
-                  Unleash Smarter Workflows with digital solution
+                  Unleash Smarter Workflows and 
                 </span>
 
                 <h1

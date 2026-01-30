@@ -47,6 +47,15 @@ export const metadata: Metadata = {
     "Next.js agency",
     "custom software solutions",
     "technology consulting",
+    "digital solution",
+    "tech company in abuja",
+    "best it company in nigeria",
+    "top it company in abuja",
+    "best tech company in abuja",
+    "best it company in Nigeria",
+    "digital solutions",
+    "digitalsolutionplanet",
+    "learn ai in abuja",
   ],
 
   authors: [

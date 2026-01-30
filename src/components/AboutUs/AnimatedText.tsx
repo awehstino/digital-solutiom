@@ -3,7 +3,7 @@ import React from "react";
 const AnimatedText: React.FC = () => {
   return (
     <>
-      <div className="move-text-wrapper overflow-hidden mb-120">
+      {/* <div className="move-text-wrapper overflow-hidden mb-120">
         <div className="move-text style-seven position-relative z-1">
           <ul className="list-unstyled mb-0">
             <li className="position-relative font-secondary fw-normal">
@@ -18,7 +18,7 @@ const AnimatedText: React.FC = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

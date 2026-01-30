@@ -91,20 +91,7 @@ const ServiceLists: React.FC = () => {
           {currentServices.map((service) => (
             <div key={service.id} className="col-xxl-3 col-lg-4 col-md-6">
               <div className="service-card style-four position-relative z-1 overflow-hidden text-center round-10 mb-45 transition">
-                <Image
-                  src="/images/services/service-card-shape-1.png"
-                  alt="Shape"
-                  width={36}
-                  height={38}
-                  className="service-card-shape position-absolute top-0 end-0 z-0"
-                />
-                <Image
-                  src="/images/services/service-card-shape-2.png"
-                  alt="Shape"
-                  width={51}
-                  height={54}
-                  className="service-card-shape position-absolute bottom-0 start-0 z-0"
-                />
+               
                 <h3 className="fs-20 fw-semibold">
                   <Link
                     href={service.link}

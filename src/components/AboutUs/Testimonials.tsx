@@ -45,7 +45,7 @@ const testimonialsData: Testimonial[] = [
 const Testimonials: React.FC = () => {
   return (
     <>
-      <div className="testimonial-area style-four position-relative z-1 ptb-130">
+      {/* <div className="testimonial-area style-four position-relative z-1 ptb-130">
         <div className="container style-one">
           <div className="row">
             <div className="col-lg-4">
@@ -107,7 +107,7 @@ const Testimonials: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

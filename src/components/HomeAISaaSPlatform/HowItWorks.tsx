@@ -10,11 +10,11 @@ const HowItWorks: React.FC = () => {
   const processSteps = [
     {
       id: 0,
-      title: "Connect Your Data Sources",
+      title: "Discover & Analyze",
       step: "01",
-      heading: "Connect Your Data Sources",
+      heading: "Discover & Analyze",
       description:
-        "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
+        "We begin by understanding your business goals, challenges, and processes. Our team analyzes where AI automation and digital solutions can create the most impact.",
       chartValue: "24K+",
       chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
@@ -22,11 +22,11 @@ const HowItWorks: React.FC = () => {
     },
     {
       id: 1,
-      title: "Train the AI Engine",
+      title: "Design & Develop",
       step: "02",
-      heading: "Train The AI Engine",
+      heading: "Design & Develop",
       description:
-        "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
+        "We design customized AI systems, websites, or automation workflows tailored to your needs. Every solution is built for performance, scalability, and efficiency.",
       chartValue: "14K+",
       chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
@@ -34,11 +34,11 @@ const HowItWorks: React.FC = () => {
     },
     {
       id: 2,
-      title: "Optimize with Smart Suggestions",
+      title: "Deploy & Integrate",
       step: "03",
-      heading: "Optimize with Smart Suggestions",
+      heading: "Deploy & Integrate",
       description:
-        "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
+        "We seamlessly implement the solution into your existing systems, ensuring smooth integration with minimal disruption.",
       chartValue: "18K+",
       chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
@@ -46,11 +46,11 @@ const HowItWorks: React.FC = () => {
     },
     {
       id: 3,
-      title: "Optimize The AI Engine",
+      title: "Optimize & Support",
       step: "04",
-      heading: "Optimize The AI Engine",
+      heading: "Optimize & Support",
       description:
-        "Easily integrate your tools, CRMs, databases, and cloud apps using secure APIs.",
+        "Technology evolves — and so do we. We provide continuous monitoring, optimization, and support to keep your systems running at peak performance.",
       chartValue: "30K+",
       chartText: "Start A Chat <br /> With Digital Solution",
       chartImage: "/images/about/chart-1.png",
@@ -84,7 +84,7 @@ const HowItWorks: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                Train AI Models To Match Your Business Workflow Needs
+                LEAD THE FUTURE, LEAVE THE REST BEHIND.
               </h2>
             </div>
           </div>

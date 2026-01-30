@@ -24,7 +24,7 @@ const Cta: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                Call To Action
+                INNOVATE OR GET LEFT BEHIND.
               </span>
               <h2
                 className="section-title style-one text-white fw-medium mb-0"
@@ -34,8 +34,7 @@ const Cta: React.FC = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                Transform Your Workflow With AI—Start Free Or Request A
-                Personalized Demo Now
+                Start automating, scaling, and outperforming the competition today.
               </h2>
             </div>
 
