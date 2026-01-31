@@ -11,7 +11,7 @@ import TeamMember from "@/components/Common/TeamMember";
 export default function AboutUs() {
   return (
     <>
-      <PageBanner pageTitle="" />
+      <PageBanner pageTitle="About Digital Solution" />
 
       <AboutUsContent />
 
