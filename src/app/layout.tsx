@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     siteName: "Digital Solution Planet",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/ulink.png",
         width: 1200,
         height: 630,
         alt: "Digital Solution Planet Logo",
